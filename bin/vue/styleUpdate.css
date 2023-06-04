@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #e6e6e6;
+}
+
+.grid-pane {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+}
+
+.text-area {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+}
+
+.submit-button {
+    -fx-background-color: #40b244;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+}
+
+.info-text-area {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+
+}

@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Customize the background color of the scene */
+.root {
+    -fx-background-color: #f2f2f2;
+}
+
+/* Customize the font color of the labels */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Customize the font color and background color of the buttons */
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* On button hover, darken the background color */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Add padding and margin to the VBox */
+.vbox {
+    -fx-padding: 20;
+    -fx-spacing: 20;
+    -fx-margin: 20;
+}
+
+/* Add padding and margin to the GridPane */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* Set font size and weight for the labels */
+.label-name {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.label-value {
+    -fx-font-size: 16px;
+}
+
+/* Align the buttons to the right */
+.buttons-hbox {
+    -fx-alignment: center-right;
+}
